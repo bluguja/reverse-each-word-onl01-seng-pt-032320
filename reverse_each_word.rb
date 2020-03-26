@@ -1,10 +1,14 @@
 # start code here
 
 def reverse_each_word(str)
-  array = str.split(" ") #turning the string into an array 
+  
+  array = str.split(" ") #turning the string into an array
+  
   test_array = []
+  
   array.collect do|string| #iterate over the array
-    test_array.push string.reverse #reverse each word in the array
+  
+    test_array.push string.reverse #reverses the words
   end
   test_array.join(" ")
 end
