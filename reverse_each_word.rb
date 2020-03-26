@@ -9,7 +9,7 @@ def reverse_each_word(str)
   
   array.collect {|string|
   
-    test_array.push string.reverse }
+    try_array.push string.reverse }
   
   try_array.join(" ")
 end
