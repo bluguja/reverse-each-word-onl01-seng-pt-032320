@@ -3,7 +3,7 @@
 
 def reverse_each_word(str)
   
-  array = str.split(" ") #turning the string into an array
+  array = str.split(" ") #turstring into an array
   
   test_array = []
   
