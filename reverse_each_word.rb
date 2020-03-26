@@ -1,19 +1,18 @@
+
 # start code here
 
 def reverse_each_word(str)
   
-  arr = str.split(" ") #turning the string into an array
+  array = str.split(" ") #turning the string into an array
   
-  try_arr = []
+  test_array = []
   
-  array.collect {|str|
+  array.collect do|string| #iterate over the array
   
-    try_arr_array.push str.reverse }
-  
-  try_arr.join(" ")
+    test_array.push string.reverse #reverses the words
+  end
+  test_array.join(" ")
 end
 
-
 reverse_each_word("Hello there, and how are you?")
-  
   
