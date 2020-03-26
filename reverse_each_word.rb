@@ -6,10 +6,10 @@ def reverse_each_word(str)
   
   test_array = []
   
-  array.collect do|string| #iterate over the array
+  array.collect {|string| #iterate over the array
   
-    test_array.push string.reverse #reverses the words
-  end
+    test_array.push string.reverse} #reverses the words
+  
   test_array.join(" ")
 end
 
