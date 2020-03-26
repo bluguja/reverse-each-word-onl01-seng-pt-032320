@@ -6,7 +6,7 @@ def reverse_each_word(str)
   
   try_arr = []
   
-  array.collect {|string| try_arr.push string.reverse} 
+  array.collect {|string| try_arr.push str.reverse} 
   
   try_arr.join(" ")
 end
